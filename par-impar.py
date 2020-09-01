@@ -5,7 +5,7 @@ import time
 #variável de vitória
 v = 0
 
-#para repetir sempre que o usuario ganhar
+#para repetir sempre que for digitado S
 while True:
   player = int(input('\nInforme um valor: '))
   pc = random.randint(0, 10)
